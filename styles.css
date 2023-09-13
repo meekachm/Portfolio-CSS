@@ -37,10 +37,11 @@ body {
 
 /* main style */
 main {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0; 
     padding: 20px;
-    border-radius: 10px; /* Add rounded corners */
+    border-radius: 10px; 
     overflow: auto;
+    max-height: calc(100vh - 500px);
 }
 
 /* sidebar (aside) style */
@@ -49,6 +50,7 @@ aside {
     padding: 20px;
     border-radius: 10px;
     overflow: auto;
+    max-height: calc(100vh - 500px);
 }
 
 /* footer style */
@@ -112,14 +114,14 @@ aside li {
 
 
 
-/* Style for the quote text */
+/* quote style */
 blockquote {
     font-size: 1.2rem;
     text-align: right; 
     color: #989898;
 }
 
-/* Style for the quote citation */
+/* cite style */
 cite {
     font-style: italic;
     color: #777;
